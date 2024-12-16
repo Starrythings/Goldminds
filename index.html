@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Goldminds</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#Beranda" class="logo">Gold
+        <span>minds</span></a>
+
+        <i class='bx bx-menu'id="#menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#Beranda" class="Beranda">Beranda</a>
+            <a href="#Tentangkami" class="Tentang Kami">Tentang Kami</a>
+            <a href="#Eksplorasii" class="Eksplorasi">Eksplorasi</a>
+            <a href="#Tanya" class="Tanya">Tanya</a>
+            <a href="#Testimoni" class="Testimoni">Testimoni</a>
+        </nav>
+    </header>
+
+<!-- Beranda -->
+    <section class="Beranda-a" id="Beranda">
+
+        <div class="Beranda-content">
+            <h1>Belajar US Ditemani Goldminds</h1>
+            <p>Belajar nggak harus ribet, dan di Goldminds, kami membuatnya jadi seru dan asyik. Temukan pelajaran, tips, dan trik yang dirancang khusus untuk membuat otakmu berkilau. Mau nilai US sesuai keinginan atau sekadar ingin tahu banyak hal baru? Goldminds adalah tempatnya. Yuk, bikin belajar jadi kebiasaan yang menyenangkan!</p>
+        </div>
+    </section>
+<!-- Beranda End -->
+
+<!-- Tentang Kami -->
+   <section class="Tentangkami" id="Tentangkami">
+    <div class="Tentangkami-img">
+        <img src="Tentangkami.img/target-audience-81.svg" alt="">
+    </div>
+
+    <div class="Tentangkami-content">
+        <h2>Tentang <span>Kami</span></h2>
+        <p>Goldminds adalah teman belajar terbaik untuk anak-anak yang penuh rasa ingin tahu
+        terutama Goldminds dapat membantu menemani mempersiapkan US (Ujian Sekolah) anak-anak!
+         Dengan materi yang menarik, penuh warna, dan mudah dipahami, kami membantu anak-anak 
+         menjelajahi dunia pengetahuan dengan cara yang menyenangkan. Di Goldminds, setiap cerita 
+         dan pelajaran adalah petualangan menuju masa depan cerah. Ayo belajar sambil bermain 
+         dan jadilah bintang di kelasmu dan masuk sekolah impianmu!</p>
+        <a href="#" class="btn"></a>
+    </div> 
+
+
+   </section>
+<!-- Tentang Kami End -->
+  
+<!-- Eksplorasi -->
+   <section class="Eksplorasii" id="Eksplorasii">
+    <h2 class="heading">Eksplorasi</h2>
+
+    <div class="Eksplorasi-content">
+        <div class="Eksplorasi-box">
+            <div class="Eksplorasi-info">
+                <i class="bx bxs-devices"></i>
+                <h3><a href="materi bind.html">Bahasa Indonesia</a></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="Eksplorasi-content">
+        <div class="Eksplorasi-box">
+            <div class="Eksplorasi-info">
+                <i class="bx bxs-devices"></i>
+                <h3><a href="materi bing.html">Bahasa Inggris</a></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="Eksplorasi-content">
+        <div class="Eksplorasi-box">
+            <div class="Eksplorasi-info">
+                <i class="bx bxs-devices"></i>
+                <h3><a href="materi mtk.html">Matematika</a></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="Eksplorasi-content">
+        <div class="Eksplorasi-box">
+            <div class="Eksplorasi-info">
+                <i class="bx bxs-devices"></i>
+                <h3><a href="materi ipa.html">Ilmu Pengetahuan Alam</a></h3>
+            </div>
+        </div>
+    </div>
+   </section>
+<!-- Eksplorasi End -->
+
+<!-- Tanya -->
+<section class="tanya-kami-box">
+    <a href="tanya.html" class="tanya-kami-link">
+        Tanya Kami
+    </a>
+</section>
+<script src="script.js"></script>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Tanya Kami Box */
+.tanya-kami-box {
+    width: 120px; /* Ukuran lebih kecil */
+    height: 120px; /* Ukuran lebih kecil */
+    background-color: #ffcc00;
+    color: white;
+    font-size: 14px; /* Ukuran font kecil */
+    text-align: center;
+    line-height: 20px; /* Vertically center text */
+    border-radius: 8px;
+    position: fixed;
+    bottom: 20px; /* Lebih dekat ke bawah */
+    right: 20px; /* Lebih dekat ke kanan */
+    cursor: pointer;
+    animation: move 4s ease-in-out infinite; /* Animasi gerakan */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.tanya-kami-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tanya-kami-box:hover {
+    background-color: #ff9900;
+}
+
+/* Animasi Gerakan */
+@keyframes move {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(5px) translateY(-5px);
+    }
+    50% {
+        transform: translateX(0) translateY(0);
+    }
+    75% {
+        transform: translateX(-5px) translateY(5px);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+</style>
+<!-- Tanya End -->
+
+<!-- Testimoni -->
+<section id="Testimoni">
+    <div class="content-container">
+        <h2>Testimoni Pengguna</h2>
+        <div class="Testimoni-slider">
+            <div class="Testimoni-item">
+                <div class="testimoni-box">
+                    <img src="testimoni.img/WhatsApp Image 2024-12-16 at 07.43.25.jpeg" alt="Foto User" class="testimoni-img">
+                    <p>"Saya merasa sangat terbantu dengan adanya GOLminDs. Anak saya menjadi lebih semangat belajar dan mendapatkan pemahaman yang lebih baik dalam pelajaran Bahasa Indonesia." - <strong>Ibnu, Ayah dari Bulan</strong></p>
+                </div>
+            </div>
+            <div class="testimoni-item">
+                <div class="testimoni-box">
+                    <img src="testimoni.img/WhatsApp Image 2024-12-16 at 07.43.26.jpeg" alt="Foto User" class="testimoni-img">
+                    <p>"GOLminDs memberikan akses belajar yang mudah dan menyenangkan. Materinya sangat mudah dipahami, dan anak saya lebih fokus dalam belajar." - <strong>Andi, Ayah dari Budi</strong></p>
+                </div>
+            </div>
+            <div class="testimoni-item">
+                <div class="testimoni-box">
+                    <img src="testimoni.img/WhatsApp Image 2024-12-16 at 07.43.27.jpeg" alt="Foto User" class="testimoni-img">
+                    <p>"Sangat membantu anak saya dalam menguasai kosakata Bahasa Inggris. Website ini benar-benar efektif untuk mendalami pelajaran." - <strong>Rokhim, Ayah dari Lita</strong></p>
+                </div>
+            </div>
+            <div class="testimoni-item">
+                <div class="testimoni-box">
+                    <img src="testimoni.img/WhatsApp Image 2024-12-16 at 07.43.28 (2).jpeg" alt="Foto User" class="testimoni-img">
+                    <p>"Saya senang melihat anak-anak saya senang belajar menggunakan GOLminDs. Materinya sesuai dengan tingkat kelas mereka." - <strong>Lisa, Guru SD</strong></p>
+                </div>
+            </div>
+            <div class="testimoni-item">
+                <div class="testimoni-box">
+                    <img src="testimoni.img/WhatsApp Image 2024-12-16 at 07.43.29 (1).jpeg" alt="Foto User" class="testimoni-img">
+                    <p>"GOLminDs sangat membantu saya dalam mengajarkan Bahasa Inggris kepada anak-anak saya. Metode pembelajaran yang diterapkan sangat menarik dan mudah dipahami." - <strong>Fadila, Ibu dari Bayu dan Rani</strong></p>
+                </div>
+            </div>
+            <div class="testimoni-item">
+                <div class="testimoni-box">
+                    <img src="testimoni.img/WhatsApp Image 2024-12-16 at 07.43.29 (2).jpeg" alt="Foto User" class="testimoni-img">
+                    <p>"Website ini sangat cocok untuk anak-anak, terutama dalam mempelajari struktur kalimat dan membaca dengan baik. Mereka jadi lebih percaya diri." - <strong>Wirera, Ibu dari Raisha</strong></p>
+                </div>
+            </div>
+            <div class="testimoni-item">
+                <div class="testimoni-box">
+                    <img src="testimoni.img/WhatsApp Image 2024-12-16 at 07.43.29.jpeg" alt="Foto User" class="testimoni-img">
+                    <p>"Sangat bermanfaat! Saya sangat merekomendasikan GOLminDs untuk anak-anak yang ingin belajar secara menyenangkan. Materinya sangat komprehensif dan lengkap." - <strong>Mirna, Ibu dari Riko</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-btn" id="prev">Prev</button>
+            <button class="slider-btn" id="next">Next</button>
+        </div>
+    </div>
+</section>
+<!-- Testimoni End -->
+ 
+ <section class="contact" id="contact">
+    <div class="sosial-icons">
+        <a href="">
+            <i class='bx bxl-instagram' ></i>
+        </a>
+        <a href="">
+            <i class='bx bxl-whatsapp'></i>
+        </a>
+        <a href="">
+            <i class='bx bxl-youtube' ></i>
+        </a>
+        <a href="">
+            <i class='bx bxl-gmail' ></i>
+        </a>
+        <a href="">
+            <i class='bx bxl-tiktok' ></i
+        ></a>
+    </div>
+</section>
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 GOLminDs. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>

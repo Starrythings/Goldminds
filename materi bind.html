@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Bahasa Indonesia - GOLminDs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fef8e0; 
+            color: #444;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar */
+        header {
+            background-color: #f9ca24; 
+            padding: 20px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            font-size: 1rem;
+            color: #333;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ffd93d; 
+            color: #fff;
+        }
+
+        /* Section Materi Detail */
+        #materi-detail {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            text-align: center;
+            width: 100%;
+        }
+
+        #materi-detail h2 {
+            font-size: 2.5rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .materi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+
+        .materi-box {
+            background-color: #f9ca24; 
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .materi-box a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .materi-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+            background-color: #ffd93d; 
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f9ca24;
+            color: #333;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-container p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .navbar h1 {
+                font-size: 1.5rem;
+            }
+
+            #materi-detail h2 {
+                font-size: 2rem;
+            }
+
+            .materi-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <h1>GOLminDs</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="materi-detail">
+    <div class="section-container">
+        <h2>Materi Bahasa Indonesia</h2>
+        <div class="materi-grid">
+            <div class="materi-box">
+                <a href="kosakata.html">Kosakata</a>
+            </div>
+            <div class="materi-box">
+                <a href="kalimat.html">Kalimat</a>
+            </div>
+            <div class="materi-box">
+                <a href="tanda baca.html">Tanda Baca</a>
+            </div>
+            <div class="materi-box">
+                <a href="sinonim dan antonim.html">Sinonim dan Antonim</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 GOLminDs. Semua hak cipta dilindungi.</p>
+    </div>
+</footer>
+</body>
+</html>

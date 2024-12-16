@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Ilmu Pengetahuan Alam - GOLminDs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fef8e0; 
+            color: #444;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar */
+        header {
+            background-color: #a9dfbf; 
+            padding: 20px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            font-size: 1rem;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #a79e7a; 
+            color: #fff;
+        }
+
+        /* Section Materi Detail */
+        #ipa-detail {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .ipa-container {
+            max-width: 1200px;
+            text-align: center;
+            width: 100%;
+        }
+
+        #ipa-detail h2 {
+            font-size: 2.5rem;
+            color: #5a7cb1;
+            margin-bottom: 30px;
+        }
+
+        .ipa-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+
+        .ipa-box {
+            background-color: #91cdf3; 
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .ipa-box a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .ipa-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+            background-color: #c3f2ff; 
+        }
+
+        /* Footer */
+        footer {
+            background-color: #99e49a;
+            color: #333;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-container p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .ipa h1 {
+                font-size: 1.5rem;
+            }
+
+            #ipa-detail h2 {
+                font-size: 2rem;
+            }
+
+            .ipa-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <h1>GOLminDs</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="ipa-detail">
+    <div class="ipa-container">
+        <h2>Materi Ilmu Pengetahuan Alam</h2>
+        <div class="ipa-grid">
+            <div class="ipa-box">
+                <a href="makhlukhidup.html">Ciri Khusus Makhluk Hidup dan Lingkungan Hidupnya</a>
+            </div>
+            <div class="ipa-box">
+                <a href="suhu dan kalor.html">Suhu dan Kalor</a>
+            </div>
+            <div class="ipa-box">
+                <a href="ekosistem.html">Keseimbangan Ekosistem</a>
+            </div>
+            <div class="ipa-box">
+                <a href="tatasurya.html">Tata Surya</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 GOLminDs. Semua hak cipta dilindungi.</p>
+    </div>
+</footer>
+</body>
+</html>
